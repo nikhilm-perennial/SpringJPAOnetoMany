@@ -8,6 +8,9 @@ public class SpringJpaOnetoManyApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringJpaOnetoManyApplication.class, args);
+        System.out.printf("Hello");
     }
+
+
 
 }
