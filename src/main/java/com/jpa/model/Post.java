@@ -18,6 +18,6 @@ public class Post {
     public String title;
     public String description;
 
-    @OneToMany(mappedBy = "post",fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "post") //,fetch = FetchType.EAGER,cascade = CascadeType.ALL
     private List<Comment> comment;
 }
